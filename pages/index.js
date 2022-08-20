@@ -20,7 +20,7 @@ export default function Home() {
     <div className='w-full bg-gradient-to-br from-primary to-primary2 2xl:px-72
      xl:px-10 px-2 md:pt-32 pt-10 flex md:justify-between justify-center md:flex-nowrap flex-wrap'>
         <div className=' md:w-1/2 md:text-left text-center w-full md:px-10 px-2'>
-        <h3 className='ttf text-white xl:text-6xl md:text-5xl sm:text-5xl text-4xl font-black mb-2'>What we're doing</h3>
+        <h3 className='ttf text-white xl:text-6xl md:text-5xl sm:text-5xl text-4xl font-black mb-2'>What we&apos;re doing</h3>
         <p className='aribau text-secondary font-bold sm:text-sm text-xs mb-8 md:pr-5 pr-0'>Etijar is building a banking stack for MSME. We’re empowering <br /> the 
         next generation of businesses, powered by non-interest finance. <br />
         <span className='text-white'>Make profit, not interest…</span>
