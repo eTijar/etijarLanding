@@ -27,3 +27,29 @@ a {
     background: black;
   }
 }
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+@font-face {
+  font-family: "TTFirsNeue-DemiBold";
+  src: url('../asset/TTFirsNeue-Black.ttf');
+  src: url('../asset/TTFirsNeue-DemiBold.ttf');
+  src: url('../asset/TTFirsNeue-Regular.ttf');
+  src: url('../asset/TTFirsNeue-Medium.ttf');
+  src: url('../asset/TTFirsNeue-Light.ttf');
+  font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Aribau Grotesk";
+    src: url('../asset/AribauGrotesk-Regular.ttf');
+    font-style: normal;
+    }
+.aribau{
+  font-family: 'Aribau Grotesk';
+}
+.ttf{
+  font-family: 'TTFirsNeue-DemiBold';
+}
