@@ -53,7 +53,7 @@ export default function Footer() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='w-full bg-black px-10 py-16 mt-8 flex justify-center items-center flex-wrap'>
-        <div className='ttf font-black md:text-6xl text-5xl text-white text-center'>You can now get our <br /> <span className='text-primary'>App</span></div>
+        <div className='ttf font-black md:text-6xl text-4xl text-white text-center'>You can now get our <br /> <span className='text-primary'>App</span></div>
             <p className='aribau w-full text-sm text-white mt-8 text-center'>It only takes a few minutes to be fully onboarded on our app. <br />
 you can download <span className='text-secondary'>eTijar</span> on Google Play or the App Store.</p>
                 <div className='w-1/2 flex md:justify-between justify-center items-center md:flex-nowrap flex-wrap mt-16'>
