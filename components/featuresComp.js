@@ -57,7 +57,7 @@ export default function FeaturesComp() {
 
       <div className='w-full grid md:grid-cols-3 grid-cols-1 grid-rows-3 gap-3'>
         { featureData.map( (item) => (
-             <div key={item.key} className='border rounded-lg p-3'>
+             <div key={item.key} className='border rounded-lg mb-4 bg-red-300 p-3'>
              <div className='w-full  mb-3'>
                  <img className='w-16' src={item.img} alt={item.key}/>
              </div>
