@@ -10,7 +10,8 @@ export default function Home() {
     <div>
          <Head>
         <title>eTijar - Make Profit not Interest</title>
-        <meta name="description" content="Hydronamics Ltd -- Driving Hydro Resources" />
+        <meta name="description" content="Etijar is building a banking stack for MSME. We are empowering
+        the next generation of businesses, powered by non-interest finance." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -37,8 +38,7 @@ export default function Home() {
 
     <div className='aribau w-full 2xl:px-72
      xl:px-10 px-2 pt-10 text-black font-bold text-xl text-center'>
-      Etijar is a financial technology company, not a bank. Banking services are provided by our banking
-       partners all CBN certified and NDIC insured.
+      Etijar is a financial technology company, not a bank. Banking services are provided by our CBN licensed banking partners
      </div>
 
      {/*growth*/}
@@ -48,15 +48,15 @@ export default function Home() {
           <img className='w-80 bottom-0 z-10 absolute' src='/orangeLine.png' alt='line' />
         </div>
         
-        <div className='md:w-1/4 w-8/12 bg-white rounded-lg shadow-2xl shadow-black mt-6 flex justify-center items-center p-3'>
+        <div className='shadow md:w-1/4 w-8/12 bg-white rounded-lg mt-6 flex justify-center items-center p-3'>
           <img className='w-10 mr-2' src='/tax.png' alt='tax'/>
           <p className='ttf font-black mt-3 text-primary md:text-lg text-sm'>Non-Interest funding</p>
         </div>
-        <div className='md:w-1/4 w-8/12 bg-white rounded-lg shadow-2xl shadow-black mt-6 flex justify-center items-center p-3'>
+        <div className='shadow md:w-1/4 w-8/12 bg-white rounded-lg mt-6 flex justify-center items-center p-3'>
           <img className='w-10 mr-2' src='/flexible.png' alt='flexible'/>
           <p className='ttf font-black mt-3 text-primary md:text-lg text-sm'>Flexible repayment</p>
         </div>
-        <div className='md:w-1/4 w-8/12 bg-white rounded-lg shadow-2xl shadow-black mt-6 flex justify-center items-center p-3'>
+        <div className='shadow md:w-1/4 w-8/12 bg-white rounded-lg mt-6 flex justify-center items-center p-3'>
           <img className='w-10 mr-2' src='/fast.png' alt='fast'/>
           <p className='ttf font-black mt-3 text-primary md:text-lg text-sm'>Fast approval</p>
         </div>
@@ -111,7 +111,7 @@ export default function Home() {
       </div>
 
       <div className='w-full mt-24 pt-3 border-t-2 border-gray-300 text-primary font-bold text-sm text-center'>
-      <span className='text-secondary'>*Etijar</span> is a financial technology company, not a bank. Banking services are provided by Jaiz Bank Plc and Taj Bank; Members NDIC.
+      <span className='text-secondary'>*Etijar</span> is a financial technology company, not a bank. Banking services are provided by our CBN licensed banking partners.
 
       </div>
       </div>

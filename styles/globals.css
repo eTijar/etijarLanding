@@ -53,3 +53,7 @@ a {
 .ttf{
   font-family: 'TTFirsNeue-DemiBold';
 }
+.shadow{
+  border: 1px solid #b3b3b3;
+  box-shadow: 6px 8px 0 0 #000000;
+}

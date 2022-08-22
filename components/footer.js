@@ -72,7 +72,7 @@ you can download <span className='text-secondary'>eTijar</span> on Google Play o
 						<p className="text-gray-500 text-base">eTijar - Make Profit not Interest</p>
 						<div className="flex space-x-6">
 							{navigation.social.map((item) => (
-								<a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+								<a key={item.name} href={item.href} className="text-black hover:text-secondary">
 									<span className="sr-only">{item.name}</span>
 									<item.icon className="h-6 w-6" aria-hidden="true" />
 								</a>
@@ -82,11 +82,11 @@ you can download <span className='text-secondary'>eTijar</span> on Google Play o
 					<div className="mt-12 grid grid-cols-3 gap-8 xl:mt-0 xl:col-span-2">
 						<div className="md:grid md:grid-cols-1 md:gap-8">
 							<div>
-								<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Quick Links</h3>
+								<h3 className="text-sm font-semibold text-black tracking-wider uppercase">Quick Links</h3>
 								<ul role="list" className="mt-4 space-y-4">
 									{navigation.quick_links.map((item) => (
 										<li key={item.name}>
-											<a href={item.href} className="text-base text-gray-400 hover:text-gray-900">
+											<a href={item.href} className="text-base text-black hover:text-primary">
 												{item.name}
 											</a>
 										</li>
@@ -96,22 +96,22 @@ you can download <span className='text-secondary'>eTijar</span> on Google Play o
 						</div>
 						<div className="md:grid md:grid-cols-2 md:gap-8 col-span-2">
 							<div>
-								<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Talk to a human</h3>
-								<p className="text-gray-400 font-light mt-4">If you have any questions about Hydronamics or the services we are offering, you can email us at <span className='text-secondary font-bold'>contact@etijar.com</span></p>
+								<h3 className="text-sm font-semibold text-black tracking-wider uppercase">Talk to a human</h3>
+								<p className="text-black font-light mt-4">If you have any questions about Hydronamics or the services we are offering, you can email us at <span className='text-secondary font-bold'>contact@etijar.com</span></p>
 							</div>
 							<div className="mt-12 md:mt-0">
-								<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Contact</h3>
-                                <p className="text-gray-400 font-light mt-4">Plot 203 IEC Crescent, off Oladipo Diya Street, Durumi 2, Abuja.</p>
-								<p className="text-gray-400 font-light mt-4">Twitter</p>
-                                <p className="text-gray-400 font-light mt-4">Instagram</p>
-                                <p className="text-gray-400 font-light mt-4">LinkedIn</p>
-								<p className="text-gray-400 font-light mt-4">Contact@etijar.com</p>
+								<h3 className="text-sm font-semibold text-black tracking-wider uppercase">Contact</h3>
+                                <p className="text-black font-light mt-4">Plot 203 IEC Crescent, off Oladipo Diya Street, Durumi 2, Abuja.</p>
+								<p className="text-black font-light mt-4">Twitter</p>
+                                <p className="text-black font-light mt-4">Instagram</p>
+                                <p className="text-black font-light mt-4">LinkedIn</p>
+								<p className="text-black font-light mt-4">Contact@etijar.com</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="mt-12 border-t border-gray-200 pt-8">
-                <p className='aribau text-gray-400 text-sm'>eTijar.com is a property of eTijar Financial Technologies Limited,a company duly registered with the Corporate 
+                <p className='aribau text-black text-sm'>eTijar.com is a property of eTijar Financial Technologies Limited,a company duly registered with the Corporate 
                 Affairs Commission of Nigeria. eTijar.com provides technological  services for islamic finance in partnership with financial providers. All banking services,savings and account numbers arprovided and managed by our banking partners and regulated by the central bank of Nigeria. all Investments in Capital market funds are executed and managed by SEC licensed fund managers and Trustees. Please note the indicative rate of return shall not be guaranteed and past performance does not guarantee future investment performance.The indicative rate of return is not fixed and may, as such, vary from time to time depending on the investment period prevailing economic,political or social circumstances.
 					</p>
 					<p className="text-base mt-3 text-secondary font-bold text-center">&copy;2022 eTijar All rights reserved.</p>
