@@ -36,13 +36,13 @@ export default function Home() {
           </div>
     </div>
 
-    <div className='aribau w-full 2xl:px-72
+    <div className='aribau bg-white w-full 2xl:px-72
      xl:px-10 px-2 pt-10 text-black font-bold text-xl text-center'>
       Etijar is a financial technology company, not a bank. Banking services are provided by our CBN licensed banking partners
      </div>
 
      {/*growth*/}
-      <div className='w-full flex md:justify-between justify-center flex-wrap  2xl:px-72
+      <div className='w-full bg-white flex md:justify-between justify-center flex-wrap  2xl:px-72
      xl:px-10 px-2 pt-16'>
         <div className='ttf w-full text-primary font-bold md:text-3xl text-lg text-center relative flex flex-col items-center'><span className='relative z-30'>Growth funding for SME businesses</span>
           <img className='w-80 bottom-0 z-10 absolute' src='/orangeLine.png' alt='line' />
@@ -63,7 +63,7 @@ export default function Home() {
       </div>
        {/*create*/}
 
-       <div className='w-full flex items-center  flex-col  2xl:px-72
+       <div className='w-full bg-white flex items-center  flex-col  2xl:px-72
      xl:px-10 px-2 pt-32'>
             <div className='flex items-start flex-col'>
             <div className='flex items-start justify-center'>
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
 
        {/*create*/}
-       <div className='w-full flex items-center  flex-col  2xl:px-72
+       <div className='w-full bg-white flex items-center  flex-col  2xl:px-72
      xl:px-10 px-2 pt-32'>
       <div className='flex flex-col mb-8'>
         <p className='aribau text-secondary md:text-2xl text-lg uppercase text-center font-bold'>Insights</p>
