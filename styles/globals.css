@@ -33,7 +33,7 @@ a {
   margin-left: 0.5rem;
 }
 @font-face {
-  font-family: "TTFirsNeue-DemiBold";
+  font-family: "TTFirsNeue-Black";
   src: url('../asset/TTFirsNeue-Black.ttf');
   src: url('../asset/TTFirsNeue-DemiBold.ttf');
   src: url('../asset/TTFirsNeue-Regular.ttf');
@@ -51,7 +51,7 @@ a {
   font-family: 'Aribau Grotesk';
 }
 .ttf{
-  font-family: 'TTFirsNeue-DemiBold';
+  font-family: 'TTFirsNeue-Black';
 }
 .shadow{
   border: 1px solid #b3b3b3;

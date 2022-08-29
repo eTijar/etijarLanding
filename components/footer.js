@@ -97,7 +97,7 @@ you can download <span className='text-secondary'>eTijar</span> on Google Play o
 						<div className="md:grid md:grid-cols-2 md:gap-8 col-span-2">
 							<div>
 								<h3 className="text-sm font-semibold text-black tracking-wider uppercase">Talk to a human</h3>
-								<p className="text-black font-light mt-4">If you have any questions about Hydronamics or the services we are offering, you can email us at <span className='text-secondary font-bold'>contact@etijar.com</span></p>
+								<p className="text-black font-light mt-4">If you have any questions about eTijar or the services we are offering, you can email us at <span className='text-secondary font-bold'>contact@etijar.com</span></p>
 							</div>
 							<div className="mt-12 md:mt-0">
 								<h3 className="text-sm font-semibold text-black tracking-wider uppercase">Contact</h3>

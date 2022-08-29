@@ -4,6 +4,11 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Link from 'next/link'
+import { Pagination, A11y, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 export default function Home() {
   return (
@@ -19,10 +24,31 @@ export default function Home() {
       <Header />
     
     <div className='w-full bg-gradient-to-br from-primary to-primary2 2xl:px-72
-     xl:px-10 px-2 md:pt-48 pt-24 flex md:justify-between justify-center md:flex-nowrap flex-wrap'>
+     xl:px-10 px-2 md:pt-48 pt-24'>
+<div className='px-10 h-auto'>
+<Swiper
+      // install Swiper modules
+      modules={[ Pagination, A11y, Autoplay]}
+      spaceBetween={50}
+      slidesPerView={1}
+      slidesPerColumn={{delay:2000}}
+      navigation
+      autoplay={true}
+      pagination={{ clickable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>Africa has $330 Billion SME Financing GAP.</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>132 Million MSMEs with no banking finance.</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>80% of MSMEs get no funding from a financial institution.</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>Lack reliable credit data</SwiperSlide>
+      ...
+    </Swiper>
+    </div>
+    <div className='flex md:justify-between justify-center md:flex-nowrap flex-wrap mt-16'>
         <div className=' md:w-1/2 md:text-left text-center w-full md:px-10 px-2'>
         <h3 className='ttf text-white xl:text-6xl md:text-5xl sm:text-5xl text-4xl font-black mb-2'>What we&apos;re doing</h3>
-        <p className='aribau text-secondary font-bold sm:text-sm text-xs mb-8 md:pr-5 pr-0'>Etijar is building a banking stack for MSME. We’re empowering <br /> the 
+        <p className='aribau text-secondary font-bold sm:text-sm text-xs mb-8 md:pr-5 pr-0'>Etijar is building a banking stack for MSME. We&apos;re empowering <br /> the 
         next generation of businesses, powered by non-interest finance. <br />
         <span className='text-white'>Make profit, not interest…</span>
         </p>
@@ -33,6 +59,7 @@ export default function Home() {
         </div>
         <div className='relative flex md:justify-center justify-center text md:w-1/2 w-full md:px-10 px-2'>
           <img className='w-64 realtive z-30 md:-mt-8 mt-8' src="/phone2.png" alt="phone" />
+          </div>
           </div>
     </div>
 
