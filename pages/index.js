@@ -40,22 +40,24 @@ export default function Home() {
     >
       <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>Africa has $330 Billion SME Financing GAP.</SwiperSlide>
       <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>132 Million MSMEs with no banking finance.</SwiperSlide>
-      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>80% of MSMEs get no funding from a financial institution.</SwiperSlide>
-      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>Lack reliable credit data</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>30% of these MSMEs need non-interest Islamic finance.</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>But lack of reliable credit data.</SwiperSlide>
       ...
     </Swiper>
     </div>
-    <div className='flex md:justify-between justify-center md:flex-nowrap flex-wrap mt-16'>
+    <div className='flex md:justify-between justify-center md:flex-nowrap flex-wrap md:mt-14 mt-0'>
         <div className=' md:w-1/2 md:text-left text-center w-full md:px-10 px-2'>
         <h3 className='ttf text-white xl:text-6xl md:text-5xl sm:text-5xl text-4xl font-black mb-2'>What we&apos;re doing</h3>
         <p className='aribau text-secondary font-bold sm:text-sm text-xs mb-8 md:pr-5 pr-0'>Etijar is building a banking stack for MSME. We&apos;re empowering <br /> the 
         next generation of businesses, powered by non-interest finance. <br />
+        <br />
+        Using alternative data in place of credit history, we qualify MSMEs for non-interest business financing. <br /> <br />
         <span className='text-white'>Make profit, not interest…</span>
         </p>
-        <form className='flex items-center md:justify-start justify-center mt-10 w-full'>
+       {/*} <form className='flex items-center md:justify-start justify-center mt-10 w-full'>
           <input className=' md:w-56 w-44 mr-3 border-none outline-none rounded-md text-sm bg-white p-3' type= "email" name='email' placeholder='Enter your email' />
           <button className='ribau text-sm border-none outline-none rounded-md text-white bg-black cursor-pointer p-3'>Join the waitlist</button>
-        </form>
+        </form>*/}
         </div>
         <div className='relative flex md:justify-center justify-center text md:w-1/2 w-full md:px-10 px-2'>
           <img className='w-64 realtive z-30 md:-mt-8 mt-8' src="/phone2.png" alt="phone" />

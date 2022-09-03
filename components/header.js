@@ -25,7 +25,8 @@ export default function Header() {
           <Link href='/'><a className='aribau mr-10 md:text-xl text-lg text-gray-800 hover:text-primary duration-150'>Home</a></Link>
           <Link href='/about'><a className='aribau mr-10 md:text-xl text-lg text-gray-800 hover:text-primary duration-150'>About</a></Link>
           <Link href='/features'><a className='aribau mr-10 md:text-xl text-lg text-gray-800 hover:text-primary duration-150'>Features</a></Link>
-          <Link href='/'><a className='aribau mr-10 md:text-xl text-lg text-gray-800 hover:text-primary duration-150'>FAQs</a></Link>
+          <Link href='/faqs'><a className='aribau mr-10 md:text-xl text-lg text-gray-800 hover:text-primary duration-150'>FAQs</a></Link>
+          <Link href='/contact'><a className='aribau mr-10 md:sm text-xs p-2 rounded shadow-sm bg-primary text-white hover:bg-black duration-150'>Join the waitlist</a></Link>
           </div>
         </div>
         </>
