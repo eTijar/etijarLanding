@@ -28,7 +28,7 @@ export default function Contact() {
         <div className='w-full relative  md:mt-44 mt-16 bg-slate-200 py-5 px-3'>
       <svg className='absolute top-0 md:-mt-48 -mt-20 left-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2e8f0" fillOpacity="1" d="M0,192L1440,128L1440,320L0,320Z"></path></svg>
            <div className='w-full relative flex md:justify-between justify-center md:flex-nowrap flex-wrap mt-24 md:mb-0 mb-4 bg-white'> 
-            <form name="etijarContact" method="POST" data-netlify="true" className='md:w-1/2 md:-mt-44 -mt-0 w-full bg-white shadow-lg py-4 px-6'>
+            <form name="etijarContact" method="POST" data-netlify="true" onSubmit='submit' className='md:w-1/2 md:-mt-44 -mt-0 w-full bg-white shadow-lg py-4 px-6'>
             <input type="hidden" name="form-name" value="etijarContact" />
                 <label className='aribau text-xs w-full flex font-bold mb-2'>Name</label>
                 <input type='text' name='name' className='w-full rounded border-2 border-gray-200 p-1 mb-4' />
