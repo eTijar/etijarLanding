@@ -35,6 +35,7 @@ export default function Contact() {
                 <input type='email' name='email' className='w-full rounded border-2 border-gray-200 p-1 mb-4' />
                 <label className='aribau text-xs w-full flex font-bold mb-2'>Message</label>
                 <textarea name='name' className='w-full rounded border-2 border-gray-200 p-1'></textarea>
+                <button className='aribau bg-primary p-1 w-full rounded mt-4 text-white font-bold hover:bg-blue-500 duration-200' type="submit">Send</button>
             </form>
             <div className='md:w-2/3  md:-mt-44 -mt-0 w-full bg-slate-200 text-center'>
             <h3 className='ttf text-black xl:text-xl  text-lg font-black mb-3'>How can we help?</h3>

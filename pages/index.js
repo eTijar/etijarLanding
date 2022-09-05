@@ -41,7 +41,7 @@ export default function Home() {
       <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>Africa has $330 Billion SME Financing GAP.</SwiperSlide>
       <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>132 Million MSMEs with no banking finance.</SwiperSlide>
       <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>30% of these MSMEs need non-interest Islamic finance.</SwiperSlide>
-      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>But lack of reliable credit data.</SwiperSlide>
+      <SwiperSlide className='aribau bg-white px-5 py-24 mb-3  text-center text-primary font-bold border-b-8 border-secondary md:text-3xl text-xl'>But lack reliable credit data.</SwiperSlide>
       ...
     </Swiper>
     </div>
